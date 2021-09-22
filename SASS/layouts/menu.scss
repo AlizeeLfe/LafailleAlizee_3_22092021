@@ -231,6 +231,8 @@ body {
 
 	.mainpicture_verticale img {
 		width: 100%;
+		height: 20em;
+		object-fit: cover;
 	}
 	
 	.maintitle {
@@ -459,10 +461,14 @@ body {
 	
 	.mainpicture img {
 		width: 100%;
+		max-height: 370px;
+		object-fit: cover;
 	}
 
 	.mainpicture_verticale img {
 		width: 100%;
+		max-height: 370px;
+		object-fit: cover;
 	}
 	
 	.maintitle {
