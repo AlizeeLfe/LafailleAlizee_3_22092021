@@ -748,7 +748,7 @@ footer img {
     padding-bottom: 30px;
   }
 
-  #barrelocalisation {
+  .barrelocalisation {
     display: flex;
     justify-content: center;
     background-color: #eaeaea;
@@ -840,12 +840,14 @@ footer img {
     font-family: "Roboto", sans-serif;
   }
   .filtre__texte1 {
-    padding-left: 25px;
+    padding-left: 29px;
   }
-  .filtre__texte1__texte2 {
+
+  .filtre__texte2 {
     padding-left: 22px;
   }
-  .filtre__texte1__texte2__texte3 {
+
+  .filtre__texte3 {
     padding-left: 19px;
   }
 
@@ -1046,10 +1048,12 @@ footer img {
   .filtre__texte1 {
     padding-left: 25px;
   }
-  .filtre__texte1__texte2 {
+
+  .filtre__texte2 {
     padding-left: 22px;
   }
-  .filtre__texte1__texte2__texte3 {
+
+  .filtre__texte3 {
     padding-left: 19px;
   }
 
@@ -1251,12 +1255,14 @@ footer img {
     justify-content: center;
     display: flex;
   }
-  .filtre__texte1__texte2 {
+
+  .filtre__texte2 {
     font-size: 16px;
     justify-content: center;
     display: flex;
   }
-  .filtre__texte1__texte2__texte3 {
+
+  .filtre__texte3 {
     font-size: 16px;
     justify-content: center;
     display: flex;
