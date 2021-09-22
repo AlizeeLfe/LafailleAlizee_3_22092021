@@ -25,10 +25,13 @@ body {
 		top: 6px;
 		right: 17px;
 		font-size: 25px;
-		& h2 {
-			padding-left: 20px;
-		}
+		cursor: pointer;
 	}
+}
+
+.maintitle h2 {
+	padding-left: 20px;
+
 }
 
 .fa-heart {
@@ -50,12 +53,13 @@ body {
 	&__ligne {
 		border-bottom: rgb(153, 226, 208) solid;
 		width: 13%;
-		&__titre {
-			font-size: 18px;
-			font-weight: initial;
-			margin-bottom: 2px;
-		}
 	}
+}
+
+.categorie__titre {
+	font-size: 18px;
+	font-weight: initial;
+	margin-bottom: 2px;
 }
 
 
@@ -69,24 +73,32 @@ body {
 	&__description {
 		width: 80%;
 		padding-left: 10px;
-		&__titre  {
-			margin-top: 13px;
-			margin-bottom: -13px;
-			&__texte {
-				font-weight: lighter;
-    			margin-bottom: 10px;
-				&__prix {
-					@include textfont;
-					font-weight: initial;
-					font-size: 14px;
-    				align-items: center;
-    				display: flex;
-    				padding-top: 28px;
-					padding-left: 15px;
-					}
-				}
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 			}
 		}
+
+
+
+.menu__titre  {
+	margin-top: 13px;
+	margin-bottom: -13px;
+}
+			
+.menu__texte {
+		font-weight: lighter;
+    	margin-bottom: 10px;
+}
+
+.menu__prix {
+		@include textfont;
+		font-weight: initial;
+		font-size: 14px;
+    	align-items: center;
+    	display: flex;
+    	padding-top: 28px;
+		padding-left: 15px;
 	}
 
 
@@ -216,15 +228,16 @@ body {
 		padding-bottom: 10px;
 		position: relative;
 		width: 100%;
-		& h2 {
-			font-size: 30px;
-			position: relative;
-			margin-bottom: 8px;
-			& i {
-				font-size: 33px;
-				cursor: pointer;
+		& i {
+			font-size: 33px;
+			cursor: pointer;
 			}
-		}
+	}
+
+	.maintitle h2 {
+		font-size: 30px;
+		position: relative;
+		margin-bottom: 8px;
 	}
 	
 	.fa-heart {
@@ -253,13 +266,14 @@ body {
 			margin-left: auto;
 			margin-right: auto;
 			text-align: center;	
-			&__titre {
-				font-size: 18px;
-				font-weight: initial;
-				margin-bottom: 2px;
-			}
 		}
 	}
+
+	.categorie__titre {
+			font-size: 18px;
+			font-weight: initial;
+			margin-bottom: 2px;
+			}
 	
 	.menu {
 		display: flex;
@@ -274,15 +288,28 @@ body {
 			overflow: hidden;
 			text-overflow: ellipsis;
 			white-space: nowrap;
-			&__titre {
-				margin-top: 13px;
-				margin-bottom: -13px;
-				&__texte {
-					font-weight: lighter;
-					margin-bottom: 10px;
-				}
-			}
 		}
+	}
+	
+	.menu__titre {
+		margin-top: 13px;
+		margin-bottom: -13px;
+	}
+	
+	.menu__texte {
+		font-weight: lighter;
+		margin-bottom: 10px;
+
+	}
+
+	.menu__prix {
+		font-family: 'Roboto', sans-serif;
+		font-weight: initial;
+		font-size: 14px;
+		align-items: center;
+		display: flex;
+		padding-top: 28px;
+		padding-left: 15px;
 	}
 	
 	@keyframes apparition {
@@ -333,16 +360,6 @@ body {
 	
 	.menu-delai-8 {
 		animation: apparition 1s both .9s;
-	}
-	
-	.menu__prix {
-		font-family: 'Roboto', sans-serif;
-		font-weight: initial;
-		font-size: 14px;
-		align-items: center;
-		display: flex;
-		padding-top: 28px;
-		padding-left: 15px;
 	}
 	
 	.menu__check {
@@ -446,10 +463,10 @@ body {
 			right: 17px;
 			font-size: 25px;
 			cursor: pointer;
-			& h2 {
-				padding-left: 20px;
-			}
 		}
+	}
+	.maintitle h2 {
+		padding-left: 20px;
 	}
 		
 	
@@ -472,12 +489,13 @@ body {
 		&__ligne {
 			border-bottom: rgb(153, 226, 208) solid;
 			width: 13%;
-			&__titre {
-				font-size: 18px;
-				font-weight: initial;
-				margin-bottom: 2px;
-			}
 		}
+	}
+	
+	.categorie__titre {
+		font-size: 18px;
+		font-weight: initial;
+		margin-bottom: 2px;
 	}
 	
 	.menu {
@@ -493,16 +511,29 @@ body {
 			overflow: hidden;
 			text-overflow: ellipsis;
 			white-space: nowrap;
-			&__titre {
-				margin-top: 13px;
-				margin-bottom: -13px;
-				&__texte {
-					font-weight: lighter;
-					margin-bottom: 10px;
-				}
-			}
 		}
 	}
+	
+	.menu__titre {
+		margin-top: 13px;
+		margin-bottom: -13px;
+	}
+	
+	.menu__texte {
+		font-weight: lighter;
+		margin-bottom: 10px;
+	}
+
+	.menu__prix {
+		font-family: 'Roboto', sans-serif;
+		font-weight: initial;
+		font-size: 14px;
+		align-items: center;
+		display: flex;
+		padding-top: 28px;
+		padding-left: 15px;
+	}
+
 	
 	@keyframes apparition {
 		0% {
@@ -552,17 +583,6 @@ body {
 	
 	.menu-delai-8 {
 		animation: apparition 1s both .9s;
-	}
-	
-	
-	.menu__prix {
-		font-family: 'Roboto', sans-serif;
-		font-weight: initial;
-		font-size: 14px;
-		align-items: center;
-		display: flex;
-		padding-top: 28px;
-		padding-left: 15px;
 	}
 	
 	.menu__check {
