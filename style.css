@@ -815,10 +815,6 @@ footer img {
     font-size: 17px;
   }
 
-  .fa-mobile-alt {
-    padding-left: 15px;
-  }
-
   li::before {
     counter-increment: compteListe 1;
     content: counter(compteListe);
@@ -1104,7 +1100,8 @@ footer img {
     padding-bottom: 10px;
     font-weight: normal;
   }
-  .descriptioncarte__titre__texte__btn {
+
+  .descriptioncarte__btn {
     position: absolute;
     right: 20px;
     bottom: 22px;
@@ -1315,7 +1312,8 @@ footer img {
     padding-bottom: 10px;
     font-weight: normal;
   }
-  .descriptioncarte__titre__texte__btn {
+
+  .descriptioncarte__btn {
     position: absolute;
     right: 20px;
     bottom: 22px;
