@@ -165,10 +165,6 @@ input {
 	}
 }
 
-.fa-mobile-alt {
-	padding-left: 15px;
-}
-
 li::before {
 	counter-increment: compteListe 1;
 	content: counter(compteListe);
@@ -461,15 +457,16 @@ li::before {
 			&__texte {
 				padding-bottom: 10px;
 				font-weight: normal;
-				&__btn {
-					position: absolute;
-					right: 20px;
-					bottom: 22px;
-					font-size: 25px;
-				}
 			}
 		}
 	}
+
+	.descriptioncarte__btn {
+		position: absolute;
+		right: 20px;
+		bottom: 22px;
+		font-size: 25px;
+		}
 	
 	.fa-heart {
 		transition: color 300ms ease-in;
@@ -681,15 +678,16 @@ li::before {
 			&__texte {
 				padding-bottom: 10px;
 				font-weight: normal;
-				&__btn {
-					position: absolute;
-					right: 20px;
-					bottom: 22px;
-					font-size: 25px;
-				}
 			}
 		}
 	}
+
+	.descriptioncarte__btn {
+		position: absolute;
+		right: 20px;
+		bottom: 22px;
+		font-size: 25px;
+		}
 	
 	.fa-heart {
 		transition: color 300ms ease-in;
