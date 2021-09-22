@@ -109,6 +109,7 @@ input {
 	border: hidden;
 	background-color: $bgcolor--dark;
 }
+
 .accueil {
 	background-color: $bgcolor;
 	text-align: center;
@@ -121,17 +122,18 @@ input {
 			padding-left: 12px;
 			padding-right: 12px;
 			font-weight: lighter;
-			&__bouton{
-				@include bgcolor-gradient;
-				padding: 14px 20px 14px 20px;
-				border-radius: 30px;
-				border: none;
-				color: white;
-				font-size: 15px;
-				cursor: pointer;
-			}
 		}
 	}
+}
+
+.accueil__bouton{
+	@include bgcolor-gradient;
+	padding: 14px 20px 14px 20px;
+	border-radius: 30px;
+	border: none;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
 }
 
 
@@ -320,18 +322,20 @@ li::before {
 				padding-left: 12px;
 				padding-right: 12px;
 				font-weight: lighter;
-				&__bouton {
-					background: linear-gradient(#FF79DA, 45%,#9356DC);
-					padding: 14px 20px 14px 20px;
-					border-radius: 30px;
-					border: none;
-					color: white;
-					font-size: 15px;
-					cursor: pointer;
-				}
 			}
 		}
 	}
+
+	.accueil__bouton {
+			background: linear-gradient(#FF79DA, 45%,#9356DC);
+			padding: 14px 20px 14px 20px;
+			border-radius: 30px;
+			border: none;
+			color: white;
+			font-size: 15px;
+			cursor: pointer;
+		}
+	
 	
 	.section2 {
 		padding-bottom: 40px;
@@ -487,6 +491,7 @@ li::before {
 			background-color: rgb(153, 226, 208);
 		}
 	}
+
 }
 
 @media screen and (min-width: 964px) and (max-width: 5000px) {
@@ -531,18 +536,19 @@ li::before {
 					padding-left: 12px;
 					padding-right: 12px;
 					font-weight: lighter;
-					&__bouton {
-						background: linear-gradient(#FF79DA, 45%,#9356DC);
-						padding: 14px 20px 14px 20px;
-						border-radius: 30px;
-						border: none;
-						color: white;
-						font-size: 15px;
-						cursor: pointer;
-					}
 				}
 			}
 		}
+
+	.accueil__bouton {
+			background: linear-gradient(#FF79DA, 45%,#9356DC);
+			padding: 14px 20px 14px 20px;
+			border-radius: 30px;
+			border: none;
+			color: white;
+			font-size: 15px;
+			cursor: pointer;
+	}
 
 	
 	.section2 {
