@@ -455,11 +455,12 @@ li::before {
 		margin-top: -10px;
 		&__titre {
 			margin-bottom: -12px;
-			&__texte {
-				padding-bottom: 10px;
-				font-weight: normal;
-			}
 		}
+	}
+
+	.descritioncarte__texte {
+		padding-bottom: 10px;
+		font-weight: normal;
 	}
 
 	.descriptioncarte__btn {
@@ -676,11 +677,12 @@ li::before {
 		margin-top: -10px;
 		&__titre {
 			margin-bottom: -12px;
-			&__texte {
-				padding-bottom: 10px;
-				font-weight: normal;
-			}
 		}
+	}
+
+	.description__texte {
+		padding-bottom: 10px;
+		font-weight: normal;
 	}
 
 	.descriptioncarte__btn {
