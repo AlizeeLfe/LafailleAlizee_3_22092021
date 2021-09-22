@@ -1098,7 +1098,8 @@ footer img {
   .descriptioncarte__titre {
     margin-bottom: -12px;
   }
-  .descriptioncarte__titre__texte {
+
+  .descritioncarte__texte {
     padding-bottom: 10px;
     font-weight: normal;
   }
@@ -1310,7 +1311,8 @@ footer img {
   .descriptioncarte__titre {
     margin-bottom: -12px;
   }
-  .descriptioncarte__titre__texte {
+
+  .description__texte {
     padding-bottom: 10px;
     font-weight: normal;
   }
