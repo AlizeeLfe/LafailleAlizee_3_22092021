@@ -95,6 +95,8 @@ body {
 .menu__texte {
 		font-weight: 300;
     	margin-bottom: 10px;
+		overflow: hidden;
+    	text-overflow: ellipsis;
 }
 
 .menu__prix {
@@ -266,7 +268,7 @@ body {
 	
 	
 	.categorie {
-		width: 50%;
+		width: 61%;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 40px;
@@ -311,7 +313,8 @@ body {
 	.menu__texte {
 		font-weight: 300;
 		margin-bottom: 10px;
-
+		overflow: hidden;
+    	text-overflow: ellipsis;
 	}
 
 	.menu__prix {
@@ -541,6 +544,8 @@ body {
 	.menu__texte {
 		font-weight: 300;
 		margin-bottom: 10px;
+		overflow: hidden;
+    	text-overflow: ellipsis;
 	}
 
 	.menu__prix {
