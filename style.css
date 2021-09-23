@@ -158,6 +158,8 @@ footer img {
   .menu__texte {
     font-weight: 300;
     margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .menu__prix {
@@ -318,7 +320,7 @@ footer img {
   }
 
   .categorie {
-    width: 50%;
+    width: 61%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -363,6 +365,8 @@ footer img {
   .menu__texte {
     font-weight: 300;
     margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .menu__prix {
@@ -583,6 +587,8 @@ footer img {
   .menu__texte {
     font-weight: 300;
     margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .menu__prix {
