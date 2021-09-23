@@ -4,7 +4,7 @@ body {
 	margin: 0 ;
 }
 
-/*
+
 .sectionload{
 	background-color: transparent;
 	position: fixed;
@@ -63,7 +63,7 @@ animation:spin 10s linear infinite;
 }
 
 
-@webkit-keyframes spin{
+@-webkit-keyframes spin{
 	0%{ -webkit-transform: rotate(0deg); transform: rotate(0deg); }
 	100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg); }
 }
@@ -76,7 +76,7 @@ animation:spin 10s linear infinite;
 
 @-webkit-keyframes spinreverse{
 	0%{ -webkit-transform: rotate(0deg); transform: rotate(0deg); }
-	100%{ -webkit-transform: rotate(-360deg); transform: rotate(-360deg);
+	100%{ -webkit-transform: rotate(-360deg); transform: rotate(-360deg); }
 }
 
 @keyframes spinreverse{
@@ -84,7 +84,8 @@ animation:spin 10s linear infinite;
 	100%{ -webkit-transform: rotate(-360deg); transform: rotate(-360deg); }
 }
 
-*/
+
+
 
 .main__index {
 	padding: 0px 8px 0px 8px;
