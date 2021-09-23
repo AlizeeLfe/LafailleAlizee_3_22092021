@@ -360,7 +360,7 @@ footer img {
     animation: apparition 1s both 0.1s;
   }
   .menu__description {
-    width: 80%;
+    width: 100%;
     padding-left: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -451,17 +451,26 @@ footer img {
     opacity: 1;
   }
 
-  .fa-check-circle {
-    font-size: 20px;
-    padding-right: 5px;
-    padding-left: 5px;
+  .rotationicone {
+    width: 15px;
+    height: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+  }
+
+  .menu:hover .rotationicone {
+    transform: rotate(0);
   }
 
   @keyframes validate {
     0% {
       width: 10%;
     }
-    25% {
+    100% {
       width: 20%;
     }
   }
