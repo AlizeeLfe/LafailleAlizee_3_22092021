@@ -107,6 +107,7 @@ body {
     	display: flex;
     	padding-top: 28px;
 		padding-left: 15px;
+		font-weight: bold;
 	}
 
 
@@ -220,7 +221,7 @@ body {
 }
 }
 
-@media screen and (min-width: 690px) and (max-width: 1068px) {
+@media screen and (min-width: 690px) and (max-width: 1198px) {
 
 	body {
 		margin: 0;
@@ -336,6 +337,7 @@ body {
 		display: flex;
 		padding-top: 28px;
 		padding-left: 15px;
+		font-weight: bold;
 	}
 	
 	@keyframes apparition {
@@ -453,7 +455,7 @@ body {
 	}
 }
 
-@media screen and (min-width: 1069px) and (max-width: 5000px) {
+@media screen and (min-width: 1199px) and (max-width: 5000px) {
 	body {
 		margin: 0;
 	}
@@ -465,7 +467,7 @@ body {
 		position: relative;
 		display: flex;
 		flex-wrap: wrap;
-		max-width: 1069px;
+		max-width: 1190px;
 		margin-top: -90px;
 		margin-right: auto;
 		margin-left: auto;
@@ -479,7 +481,7 @@ body {
 	}
 	
 	.categorie {
-		width: 32%;
+		width: 33%;
 	}
 	
 	.mainpicture img {
@@ -576,6 +578,7 @@ body {
 		display: flex;
 		padding-top: 28px;
 		padding-left: 15px;
+		font-weight: bold;
 	}
 
 	
