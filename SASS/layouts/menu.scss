@@ -174,7 +174,7 @@ body {
 		font-size: 25px;
 		animation: validate .5s;
 		opacity: 1;
-		animation-fill-mode: forwards;
+		cursor: pointer;
 	}
 
 	@keyframes validate {
@@ -305,7 +305,7 @@ body {
 		margin: 20px 10px 14px 0px;
 		border-radius: 10px;
 		box-shadow: 2px 4px 7px lightgray;
-		 animation: apparition 1s both .1s;
+		animation: apparition 1s both .1s;
 		&__description {
 			width: 100%;
 			padding-left: 10px;
@@ -401,6 +401,7 @@ body {
 		font-size: 25px;
 		animation: validate .5s both;
 		opacity: 1;
+		cursor: pointer;
 	}
 
 	@keyframes validate {
@@ -641,6 +642,7 @@ body {
 		font-size: 25px;
 		animation: validate .5s both;
 		opacity: 1;
+		cursor: pointer;
 	}
 
 	@keyframes validate {
