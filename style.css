@@ -153,6 +153,8 @@ footer img {
   .menu__titre {
     margin-top: 13px;
     margin-bottom: -13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .menu__texte {
@@ -865,6 +867,7 @@ footer img {
 
   .accueil__bouton {
     background: linear-gradient(#FF79DA, 45%, #9356DC);
+    box-shadow: 2px 4px 7px lightgray;
     padding: 14px 20px 14px 20px;
     border-radius: 30px;
     border: none;
@@ -1150,6 +1153,7 @@ footer img {
 
   .accueil__bouton {
     background: linear-gradient(#FF79DA, 45%, #9356DC);
+    box-shadow: 2px 4px 7px lightgray;
     padding: 14px 20px 14px 20px;
     border-radius: 30px;
     border: none;
@@ -1453,6 +1457,7 @@ footer img {
 
   .accueil__bouton {
     background: linear-gradient(#FF79DA, 45%, #9356DC);
+    box-shadow: 2px 4px 7px lightgray;
     padding: 14px 20px 14px 20px;
     border-radius: 30px;
     border: none;
