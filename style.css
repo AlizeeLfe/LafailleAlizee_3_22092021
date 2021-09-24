@@ -220,7 +220,6 @@ footer img {
 
   .menu__check {
     opacity: 0;
-    animation-fill-mode: forwards;
   }
 
   .menu:hover .menu__check {
@@ -234,6 +233,7 @@ footer img {
     animation: validate 0.5s;
     opacity: 1;
     cursor: pointer;
+    animation-fill-mode: forwards;
   }
 
   @keyframes validate {
