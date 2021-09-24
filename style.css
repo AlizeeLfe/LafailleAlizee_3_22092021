@@ -220,6 +220,7 @@ footer img {
 
   .menu__check {
     opacity: 0;
+    animation-fill-mode: forwards;
   }
 
   .menu:hover .menu__check {
