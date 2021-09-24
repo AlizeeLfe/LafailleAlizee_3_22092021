@@ -175,7 +175,7 @@ li::before {
 	display: flex;
 	font-size: 13px;
 	justify-content: center;
-	background-color: #9356DC;
+	background-color: $color-primary;
 	color: white;
 	border-radius: 20px;
 	width: 20px;
@@ -203,6 +203,10 @@ li::before {
 .filtre:hover {
 	background-color: rgb(245, 237, 255);
 	box-shadow: 2px 4px 7px darkgray;
+}
+
+.filtre:hover .fa-color-violet {
+    color: $color-primary;
 }
 
 .section3 {
@@ -320,7 +324,7 @@ li::before {
 	.loader-circles{
 		border-radius:50px;
 		border: 5px solid transparent;
-		border-top-color: #9356DC ;
+		border-top-color: #9356DC;
 		-webkit-animation:spin 1s linear infinite;
 		 animation:spin 1s linear infinite;
 	}
@@ -425,7 +429,6 @@ li::before {
 		}
 	}
 	
-	
 	.conteneurfiltre {
 		list-style: none;
 		counter-reset: compteListe;
@@ -461,7 +464,7 @@ li::before {
 		display: flex;
 		font-size: 13px;
 		justify-content: center;
-		background-color: #9356DC;
+		background-color: $color-primary;
 		color: white;
 		border-radius: 20px;
 		width: 20px;
@@ -473,6 +476,10 @@ li::before {
 	.filtre:hover {
 		background-color: rgb(245, 237, 255);
 		box-shadow: 2px 4px 7px darkgray;
+	}
+
+	.filtre:hover .fa-color-violet {
+		color: $color-primary;
 	}
 	
 	
@@ -718,7 +725,6 @@ li::before {
 			cursor: pointer;
 	}
 
-	
 	.section2 {
 		padding-bottom: 40px;
 		padding-top: 20px;
@@ -726,7 +732,6 @@ li::before {
 			padding-left: 10px;
 		}
 	}
-	
 	
 	.conteneurfiltre {
 		list-style: none;
@@ -761,7 +766,7 @@ li::before {
 		display: flex;
 		font-size: 13px;
 		justify-content: center;
-		background-color: #9356DC;
+		background-color: $color-primary;
 		color: white;
 		border-radius: 20px;
 		width: 20px;
@@ -769,12 +774,14 @@ li::before {
 		align-items: center;
 	}
 	
-	
 	.filtre:hover {
 		background-color: rgb(245, 237, 255);
 		box-shadow: 2px 4px 7px darkgray;
 	}
 	
+	.filtre:hover .fa-color-violet {
+		color: $color-primary;
+	}
 	
 	.filtre {
 		color: black;
