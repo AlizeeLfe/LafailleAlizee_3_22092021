@@ -85,11 +85,11 @@ body {
 			}
 		}
 
-
-
 .menu__titre  {
 	margin-top: 13px;
 	margin-bottom: -13px;
+	overflow: hidden;
+    text-overflow: ellipsis;
 }
 			
 .menu__texte {
