@@ -139,6 +139,10 @@ input {
 	cursor: pointer;
 }
 
+.accueil__bouton:hover {
+	filter: brightness(1.2);
+	box-shadow: 2px 4px 7px darkgray;
+}
 
 .section2 {
 	padding-bottom: 40px;
@@ -412,14 +416,19 @@ li::before {
 	}
 
 	.accueil__bouton {
-			@include bgcolor-gradient;
-			@include boxshadow;
-			padding: 14px 20px 14px 20px;
-			border-radius: 30px;
-			border: none;
-			color: white;
-			font-size: 15px;
-			cursor: pointer;
+		@include bgcolor-gradient;
+		@include boxshadow;
+		padding: 14px 20px 14px 20px;
+		border-radius: 30px;
+		border: none;
+		color: white;
+		font-size: 15px;
+		cursor: pointer;
+		}
+
+	.accueil__bouton:hover {
+		filter: brightness(1.2);
+		box-shadow: 2px 4px 7px darkgray;
 		}
 	
 	
@@ -718,14 +727,19 @@ li::before {
 		}
 
 	.accueil__bouton {
-			@include bgcolor-gradient;
-			@include boxshadow;
-			padding: 14px 20px 14px 20px;
-			border-radius: 30px;
-			border: none;
-			color: white;
-			font-size: 15px;
-			cursor: pointer;
+		@include bgcolor-gradient;
+		@include boxshadow;
+		padding: 14px 20px 14px 20px;
+		border-radius: 30px;
+		border: none;
+		color: white;
+		font-size: 15px;
+		cursor: pointer;
+	}
+
+	.accueil__bouton:hover {
+		filter: brightness(1.2);
+		box-shadow: 2px 4px 7px darkgray;
 	}
 
 	.section2 {
