@@ -262,12 +262,13 @@ footer img {
     transform: rotate(0);
   }
 
-  #boutoncommander {
+  .boutoncommander {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
   }
-  #boutoncommander button {
+
+  .boutoncommander__button {
     background: linear-gradient(#FF79DA, 45%, #9356DC);
     color: white;
     border-radius: 30px;
@@ -275,6 +276,11 @@ footer img {
     padding: 10px 40px 10px 40px;
     cursor: pointer;
     box-shadow: 2px 4px 7px lightgray;
+  }
+
+  .boutoncommander__button:hover {
+    filter: brightness(1.2);
+    box-shadow: 2px 4px 7px darkgray;
   }
 }
 @media screen and (min-width: 690px) and (max-width: 1198px) {
@@ -480,13 +486,13 @@ footer img {
     transform: rotate(0);
   }
 
-  #boutoncommander {
+  .boutoncommander {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
   }
 
-  #boutoncommander button {
+  .boutoncommander__button {
     background: linear-gradient(#FF79DA, 45%, #9356DC);
     color: white;
     border-radius: 30px;
@@ -496,9 +502,9 @@ footer img {
     cursor: pointer;
   }
 
-  button:hover {
-    filter: brightness(1.1);
-    box-shadow: 2px 4px 7px gray;
+  .boutoncommander__button:hover {
+    filter: brightness(1.2);
+    box-shadow: 2px 4px 7px darkgray;
   }
 }
 @media screen and (min-width: 1199px) and (max-width: 5000px) {
@@ -713,14 +719,14 @@ footer img {
     transform: rotate(0);
   }
 
-  #boutoncommander {
+  .boutoncommander {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
     width: 100%;
   }
 
-  #boutoncommander button {
+  .boutoncommander__button {
     background: linear-gradient(#FF79DA, 45%, #9356DC);
     color: white;
     border-radius: 30px;
@@ -728,6 +734,11 @@ footer img {
     padding: 10px 40px 10px 40px;
     box-shadow: 2px 4px 7px lightgray;
     cursor: pointer;
+  }
+
+  .boutoncommander__button:hover {
+    filter: brightness(1.2);
+    box-shadow: 2px 4px 7px darkgray;
   }
 }
 @media screen and (min-width: 52px) and (max-width: 600px) {
@@ -874,6 +885,11 @@ footer img {
     color: white;
     font-size: 15px;
     cursor: pointer;
+  }
+
+  .accueil__bouton:hover {
+    filter: brightness(1.2);
+    box-shadow: 2px 4px 7px darkgray;
   }
 
   .section2 {
@@ -1160,6 +1176,11 @@ footer img {
     color: white;
     font-size: 15px;
     cursor: pointer;
+  }
+
+  .accueil__bouton:hover {
+    filter: brightness(1.2);
+    box-shadow: 2px 4px 7px darkgray;
   }
 
   .section2 {
@@ -1464,6 +1485,11 @@ footer img {
     color: white;
     font-size: 15px;
     cursor: pointer;
+  }
+
+  .accueil__bouton:hover {
+    filter: brightness(1.2);
+    box-shadow: 2px 4px 7px darkgray;
   }
 
   .section2 {
