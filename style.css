@@ -743,7 +743,7 @@ footer img {
 }
 @media screen and (min-width: 52px) and (max-width: 600px) {
   body {
-    margin: 0 ;
+    margin: 0;
   }
 
   .sectionload {
