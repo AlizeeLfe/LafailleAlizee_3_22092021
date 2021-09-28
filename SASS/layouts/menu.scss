@@ -205,11 +205,12 @@ body {
 	}
 	
 
-.boutoncommander {
+	.boutoncommander {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
-}
+	}
+	
 	.boutoncommander__button {
 		@include bgcolor-gradient;
 		color: white;
